@@ -163,7 +163,7 @@ h2.quemsomos {
     
     font-size: 20px;
     text-align:justify ;
-    text-shadow: 2px 2px 5px #292929;
+    text-shadow: 2px 2px 5px #f7f5f5;
 
 }
 .teste123{
@@ -184,3 +184,7 @@ width: 90px;
 .letra{
     text-shadow: 2px 2px 5px #000000;
 }
+.letra2{
+    text-shadow: 2px 2px 5px #fdfcfc;
+}
+

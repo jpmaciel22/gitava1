@@ -89,7 +89,7 @@
                   <div class="card" style="width: 18rem;">
                     <img src="yulo.png" class="card-img-top" alt="Marmita">
                     <div class="card-body">
-                      <h5 class="card-title">3 - Suco cítrico YULO 400ml gelada</h5>
+                      <h5 class="card-title">3 - Suco cítrico YULO 400ml gelado</h5>
                       <p class="card-text strong">R$3,50</p>
                     </div>
                 </div>
@@ -126,8 +126,8 @@
                     <div class="input-group-text">
                     <form action="index.php" method="get"> 
                       <form action="pedidofinalizado.php" method="get">
-                    <input class="teste123" type="number" min="1" max="3" placeholder="Marmita" name="pedido1">
-                    <input class="teste123"type="number" min="1" max="3" placeholder="Bebida" name="pedido2">
+                    <input class="teste123" type="number" min="1" max="3" placeholder="Bebida" name="pedido1">
+                    <input class="teste123"type="number" min="1" max="3" placeholder="Marmita" name="pedido2">
                     <input type="text" placeholder="Cliente" name="cliente">
                     <input type="submit" value="Finalizar seleção">
                     <table class="table">
@@ -169,6 +169,8 @@
     
   </tbody>
 </table>
+<span><h7>OBS: O pagamento será feito no ato da retirada do pedido.</h7></span><br>
+<span><h7>Aceitamos todos os tipos de cartões.</h7></span><br><br>
 <a href="pedidofinalizado.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
 </form>
 
@@ -198,6 +200,7 @@
         
         </center> 
     </section>
+    
     </center><!--começo do footer-->
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-info text-muted">
