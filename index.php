@@ -125,7 +125,7 @@
                   <div class="input-group mb-3">
                     <div class="input-group-text">
                     <form action="index.php" method="get"> 
-                      <form action="pedidofinalizado.php" method="get">
+                      <form action="pedidofinalizado.html" method="get">
                     <input class="teste123" type="number" min="1" max="3" placeholder="Marmita" name="pedido1">
                     <input class="teste123"type="number" min="1" max="3" placeholder="Bebida" name="pedido2">
                     <input type="text" placeholder="Cliente" name="cliente">
