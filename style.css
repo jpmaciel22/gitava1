@@ -1,0 +1,167 @@
+section.header {
+    background-color: crimson;
+    width: fill;
+    height: 80px;
+    padding-top: 1px;
+}
+
+.butoesheader {
+    background-color: rgb(232, 232, 232);
+    border-radius: 15px;
+    padding: 2px 15px;
+    text-align: center;
+    border: none;
+    float: center;
+    display: inline-block;
+    font-size: 44px;
+    padding: 5px;
+
+}
+
+.butoesheader:hover {
+    box-shadow: 10px 5px 10px black;
+}
+
+.texto {
+    font-size: 17px
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(84, 129, 255);
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.imgexhome {
+    width: 525px;
+    height: 525px;
+
+}
+
+table {
+    color: black;
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p,
+h3,
+header,
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+
+#fundo {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-size: 300%;
+    animation: gradient 10s ease infinite;
+}
+
+  @keyframes gradient{ /* animacao em css */
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  } 
+#home {
+    /*background-color: white;*/
+    height: 1200px;
+    width: 600px;
+    padding-top: 10px;
+}
+
+#fundoimagem {
+    background-color: rgb(42, 40, 58);
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    float: center;
+}
+
+.pedido {
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    font-size: x-large;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 1px 1px #ffffff;
+
+}
+
+#pesquisar {
+    margin-right: 700px;
+}
+
+.bebidas {
+    margin-top: 20px;
+}
+
+.paddingcheckout {
+    padding-left: 250px;
+}
+
+.paddingtextocheck {
+    padding-left: 235px;
+}
+
+h2.quemsomos {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding-top: 40px;
+    text-shadow: 2px 1px 5px #fcfafa;
+}
+
+.strong{
+    font-weight: bold;
+    font-size: 18px;
+}
+#quemsomos{
+    font-size: x-large;
+   padding-left: 30px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   width: 850px;
+   
+}
+.localizacao{
+   padding: 5px;
+   border-radius: 15px;
+   background-color: #000000;
+
+}
+#localizacao{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+.teste32{
+    font-size: 20px;
+    text-align:justify ;
+    text-shadow: 2px 2px 5px #fcfafa;
+
+}
