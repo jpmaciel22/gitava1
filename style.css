@@ -160,11 +160,10 @@ h2.quemsomos {
     width: 850px;
 }
 .teste32{
-    text-align: center;
-    top: 50%;
+    
     font-size: 20px;
     text-align:justify ;
-    text-shadow: 2px 2px 5px #fcfafa;
+    text-shadow: 2px 2px 5px #292929;
 
 }
 .teste123{
@@ -177,9 +176,11 @@ width: 90px;
    
 }
 .teste33{
-    text-align: center;
-    top: 50%;
+   
     text-align:justify ;
     text-shadow: 2px 2px 5px #fcfafa;
 
+}
+.letra{
+    text-shadow: 2px 2px 5px #000000;
 }

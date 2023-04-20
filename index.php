@@ -58,13 +58,13 @@
           <div class="d-table">
            <div class="d-table-row">
             <div class="d-table-cell">
-              <div class="text-center text-white bebidas"><h2>Bebidas</h2></div> 
+              <div class="text-center text-white bebidas"><h2 class="letra">Bebidas</h2></div> 
             </div>
             <div class="d-table-cell">
-              <div class="text-center text-white bebidas"><h2>Marmitas</h2></div>
+              <div class="text-center text-white bebidas"><h2 class="letra">Marmitas</h2></div>
             </div>
             <div class="d-table-cell">
-              <div class="text-center text-white bebidas paddingtextocheck"><h2>Checkout</h2></div>
+              <div class="text-center text-white bebidas paddingtextocheck"><h2 class="letra">Checkout</h2></div>
             </div>
           </div>
           
@@ -125,7 +125,7 @@
                   <div class="input-group mb-3">
                     <div class="input-group-text">
                     <form action="index.php" method="get"> 
-                      <form action="pedidofinalizado.html" method="get">
+                      <form action="pedidofinalizado.php" method="get">
                     <input class="teste123" type="number" min="1" max="3" placeholder="Marmita" name="pedido1">
                     <input class="teste123"type="number" min="1" max="3" placeholder="Bebida" name="pedido2">
                     <input type="text" placeholder="Cliente" name="cliente">
@@ -169,7 +169,7 @@
     
   </tbody>
 </table>
-<a href="pedidofinalizado.php" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
+<a href="pedidofinalizado.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
 </form>
 
 
