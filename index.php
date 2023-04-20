@@ -169,7 +169,7 @@
     
   </tbody>
 </table>
-<a href="pedidofinalizado.php" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
+<a href="pedidofinalizado.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
 </form>
 
 
