@@ -160,7 +160,25 @@ h2.quemsomos {
     width: 850px;
 }
 .teste32{
+    text-align: center;
+    top: 50%;
     font-size: 20px;
+    text-align:justify ;
+    text-shadow: 2px 2px 5px #fcfafa;
+
+}
+.teste123{
+width: 90px;
+
+}
+.salve{ 
+   height: 300px;
+   width: 300px;
+   
+}
+.teste33{
+    text-align: center;
+    top: 50%;
     text-align:justify ;
     text-shadow: 2px 2px 5px #fcfafa;
 

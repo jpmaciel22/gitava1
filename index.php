@@ -73,7 +73,7 @@
                   <div class="card" style="width: 18rem;">
                     <img src="cocacola.png" class="card-img-top" alt="Marmita">
                     <div class="card-body">
-                      <h5 class="card-title">Coca-Cola 500ml garrafa de vidro gelada</h5>
+                      <h5 class="card-title">1 - Coca-Cola 500ml garrafa de vidro gelada</h5>
                       <p class="card-text strong">R$3,50</p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                 <div class="card" style="width: 18rem;">
                   <img src="guarana.png" class="card-img-top" alt="Marmita">
                   <div class="card-body">
-                    <h5 class="card-title">Guarana Antartica 500ml gelada</h5>
+                    <h5 class="card-title">2 - Guarana Antartica 500ml gelada</h5>
                     <p class="card-text strong">R$3,50</p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@
                   <div class="card" style="width: 18rem;">
                     <img src="yulo.png" class="card-img-top" alt="Marmita">
                     <div class="card-body">
-                      <h5 class="card-title">Suco cítrico YULO 400ml gelada</h5>
+                      <h5 class="card-title">3 - Suco cítrico YULO 400ml gelada</h5>
                       <p class="card-text strong">R$3,50</p>
                     </div>
                 </div>
@@ -99,7 +99,7 @@
                   <div class="card" style="width: 18rem;">
                     <img src="marmitas5.png" class="card-img-top" alt="Marmita">
                     <div class="card-body">
-                      <h5 class="card-title">Marmita de figado acebolado com batata frita</h5>
+                      <h5 class="card-title">1 - Marmita de figado acebolado com batata frita</h5>
                       <p class="card-text strong">R$18,00</p>
                     </div>
                   </div>
@@ -107,7 +107,7 @@
                 <div class="card" style="width: 18rem;">
                   <img src="marmitas2.jpg" class="card-img-top" alt="Marmita">
                   <div class="card-body">
-                    <h5 class="card-title">Marmita de churrasco com tropeiro</h5>
+                    <h5 class="card-title">2 - Marmita de churrasco com tropeiro</h5>
                     <p class="card-text strong">R$18,00</p>
                   </div>
               </div>
@@ -115,7 +115,7 @@
               <div class="card" style="width: 18rem;">
                 <img src="marmitas4.png" class="card-img-top" alt="Marmita">
                 <div class="card-body">
-                  <h5 class="card-title">Marmita de batata com frango</h5>
+                  <h5 class="card-title">3 - Marmita de batata com frango</h5>
                   <p class="card-text strong">R$18,00</p>
                 </div>
             </div>
@@ -125,10 +125,11 @@
                   <div class="input-group mb-3">
                     <div class="input-group-text">
                     <form action="index.php" method="get"> 
-                    <input type="text" placeholder="Marmita" name="pedido1">
-                    <input type="text" placeholder="Bebida" name="pedido2">
+                      <form action="pedidofinalizado.php" method="get">
+                    <input class="teste123" type="number" min="1" max="3" placeholder="Marmita" name="pedido1">
+                    <input class="teste123"type="number" min="1" max="3" placeholder="Bebida" name="pedido2">
                     <input type="text" placeholder="Cliente" name="cliente">
-                    <input type="submit" value="Finalizar">
+                    <input type="submit" value="Finalizar seleção">
                     <table class="table">
                     <?php
                     if(isset($_GET['pedido1'])) $pedido1=$_GET['pedido1'];
@@ -141,6 +142,7 @@
                     $pedido2preco=18.00;
                     $total="R$ ".$pedido1preco+$pedido2preco."0";
                     ?>
+                    
 <thead>
     <tr>
       <th scope="col">#</th>
@@ -164,8 +166,13 @@
       <th scope="row">Total :</th>
       <td><?php echo "$total" ?></td>
     </tr>
+    
   </tbody>
 </table>
+<a href="pedidofinalizado.php" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
+</form>
+
+
                   </div>
                   </form>  
                   </section>
