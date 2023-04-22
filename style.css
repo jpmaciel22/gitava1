@@ -83,11 +83,15 @@ footer {
   } 
 #home {
     /*background-color: white;*/
-    height: 1200px;
+    height: 1800px;
     width: 600px;
     padding-top: 10px;
 }
-
+.pit{
+    background-color: aquamarine;
+    padding-top: 25px;
+    border-radius: 25px;
+}
 #fundoimagem {
     background-color: rgb(42, 40, 58);
     width: 100%;
