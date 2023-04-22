@@ -164,19 +164,11 @@
   </thead>
   <tbody>
     <tr>
-<<<<<<< HEAD
-      <th scope="row">Bebida</th>
-      <td><?=$pedido1?></td> <!-- echo de uma variavel atalho-->
-    </tr>
-    <tr>
-      <th scope="row">Marmita</th>
-=======
-      <th scope="row">Marmita :</th>
-      <td><?=$pedido1?></td> <!-- echo de uma variavel atalho-->
-    </tr>
-    <tr>
       <th scope="row">Bebida :</th>
->>>>>>> acdfff36ca0aa25ddcf453e79e643ccf59b81f47
+      <td><?=$pedido1?></td> <!-- echo de uma variavel atalho-->
+    </tr>
+    <tr>
+      <th scope="row">Marmita :</th>
       <td><?php echo "$pedido2" ?></td>
     </tr>
     <tr>
