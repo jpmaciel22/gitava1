@@ -151,15 +151,15 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Marmita</th>
+      <th scope="row">Marmita :</th>
       <td><?=$pedido1?></td> <!-- echo de uma variavel atalho-->
     </tr>
     <tr>
-      <th scope="row">Bebida</th>
+      <th scope="row">Bebida :</th>
       <td><?php echo "$pedido2" ?></td>
     </tr>
     <tr>
-      <th scope="row">Nome</th>
+      <th scope="row">Nome :</th>
       <td><?php echo "$cliente" ?></td>
     </tr>
     <tr>
@@ -170,7 +170,7 @@
   </tbody>
 </table>
 <span><h7>OBS: O pagamento será feito no ato da retirada do pedido.</h7></span><br>
-<span><h7>Aceitamos todos os tipos de cartões.</h7></span><br><br>
+<span><h7>Aceitamos pix/dinheiro e todos os tipos de cartões.</h7></span><br><br>
 <a href="pedidofinalizado.html" target="_blank"><button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button></a>
 </form>
 
