@@ -140,7 +140,20 @@
                     else $cliente = "";
                     $pedido1preco=3.50;
                     $pedido2preco=18.00;
-                    $total="R$ ".$pedido1preco+$pedido2preco."0";
+                    $total=0.00;
+                    //echo "> ".$_GET['pedido1']."*".$_GET['pedido2']."!<br>";
+                    if(isset($_GET['pedido1']) && !empty($_GET['pedido1']) && isset($_GET['pedido2']) && !empty($_GET['pedido2'])){
+                      $total="R$ ".$pedido1preco+$pedido2preco."0"; //modo simples
+                    } elseif(isset($_GET['pedido1']) && !empty($_GET['pedido1'])){
+                      $total="R$ ".number_format($pedido1preco,2,","); //testando number_format
+                    } elseif(isset($_GET['pedido2']) && !empty($_GET['pedido2'])){
+                      $total="R$ ".number_format($pedido2preco,2,",");
+                        }
+                      else{
+                        $total="R$0,00";
+                      }
+                    
+                   
                     ?>
                     
 <thead>
@@ -151,11 +164,11 @@
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Marmita</th>
+      <th scope="row">Bebida</th>
       <td><?=$pedido1?></td> <!-- echo de uma variavel atalho-->
     </tr>
     <tr>
-      <th scope="row">Bebida</th>
+      <th scope="row">Marmita</th>
       <td><?php echo "$pedido2" ?></td>
     </tr>
     <tr>
